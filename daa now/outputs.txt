@@ -1,0 +1,288 @@
+1a)
+Enter the total number of students
+3
+Enter USN, Name, Branch & Phone no. for student 1
+4vp14cs001
+Karthik
+cse
+9876786548
+Enter USN, Name, Branch & Phone no. for student 2
+4vp14cs002
+Apoorva
+cse
+9767654345
+Enter USN, Name, Branch & Phone no. for student 3
+4vp14cs034
+Akshatha
+cse
+8797654531
+USN	 Name	 Branch	  Phone
+4vp14cs001 Karthik cse 9876786548
+4vp14cs002 Apoorva cse 9767654345
+4vp14cs034 Akshatha cse 8797654531
+
+
+
+1b)
+MENU: 1)Push 2)Pop 3)Display 4)Exit
+Enter your choice: 1
+Enter Item to Pushed:
+12
+MENU: 1)Push 2)Pop 3)Display 4)Exit
+Enter your choice: 1
+Enter Item to Pushed:
+13
+MENU: 1)Push 2)Pop 3)Display 4)Exit
+Enter your choice: 1
+Enter Item to Pushed:
+14
+MENU: 1)Push 2)Pop 3)Display 4)Exit
+Enter your choice: 3
+Stack Items : 12 13 14 <-top
+MENU: 1)Push 2)Pop 3)Display 4)Exit
+Enter your choice: 2
+Poped item is : 14
+MENU: 1)Push 2)Pop 3)Display 4)Exit
+Enter your choice: 2
+Poped item is : 13
+MENU: 1)Push 2)Pop 3)Display 4)Exit
+Enter your choice: 2
+Poped item is : 12
+MENU: 1)Push 2)Pop 3)Display 4)Exit
+Enter your choice: 3
+Stack is empty
+MENU: 1)Push 2)Pop 3)Display 4)Exit
+Enter your choice: 2
+Stack Underflow
+MENU: 1)Push 2)Pop 3)Display 4)Exit
+Enter your choice: 4
+
+
+2a)
+Enter the details of teaching staff
+Enter StaffId, Name, Phone, salary
+s123
+Rahul
+9878765670
+35000
+Enter domain and total no. of publication
+network
+5
+……
+Enter the details of technical staff
+Enter StaffId, Name, Phone, salary
+s225
+Saurav
+9999876679
+45000
+Enter the skills:
+Programming
+…… Enter the details of Contract staff
+Enter StaffId, Name, Phone, salary
+s454
+Laxman
+7876564444
+23000
+Enter the period
+5
+……
+The details of teaching staff are
+StaffId:s123 Name:Rahul Phone:9878765670 Salary:35000.0 Domain:network
+Publication : 5
+…… The details of technical staff are
+StaffId:s225 Name:Saurav Phone:9999876679 Salary:45000.0 Skills:Programming
+…… The details of contract staff are
+StaffId:s454 Name:LaxmanPhone:7876564444 Salary:23000.0 Period : 5.0
+……
+
+
+2b)
+Enter customer name :
+Narendra
+Enter customer DOB (dd/mm/yyyy):
+3/6/82
+Please enter the date in dd/mm/yyyy format!
+03/6/1982
+Please enter the date in dd/mm/yyyy format!
+03/06/1982
+Customer name and DOB is : Narendra,03,06,1982
+
+
+3a)
+Output-1
+Enter value for a and b :
+32
+No Exception
+Value of c =1
+Output-2
+Enter value for a and b :
+40 java.lang.ArithmeticException: /
+by zero
+
+3b)
+Sample Output
+Thread 1: Generated random number is 80
+Thread 2: Square of 80 is: 6400
+Thread 3: Cube of 80 is: 512000
+Thread 1: Generated random number is 0
+Thread 2: Square of 0 is: 0
+Thread 3: Cube of 0 is: 0
+Thread 1: Generated random number is 9
+Thread 2: Square of 9 is: 81
+Thread 3: Cube of 9 is: 729
+Thread 1: Generated random number is 46
+Thread 2: Square of 46 is: 2116
+Thread 3: Cube of 46 is: 97336
+Thread 1: Generated random number is 91
+Thread 2: Square of 91 is: 8281
+Thread 3: Cube of 91 is: 753571
+
+4)
+Enter the total numbers: 5
+Array before sorting
+619 630 34 698 760
+Array After sorting
+34 619 630 698 760
+Time for sorting is 0.028026 milli seconds
+
+5)
+Enter the total numbers: 7
+Array before sorting
+108 162 105 201 459 273 198
+Array After sorting
+105 108 162 198 201 273 459
+Time for sorting is 0.043815 milli seconds
+
+
+6a)
+Enter the number of items:
+4
+Enter the items profit:
+12 10 20 15
+Enter the items weights:
+2 1 3 2
+Enter the maximum capacity:
+5
+0/1 Knapsack using Dynamic Programming
+The selected items are :
+Item 4 (weight:2, profit:15)
+Item 2 (weight:1, profit:10)
+Item 1 (weight:2, profit:12)
+Total profit of the items added to knapsack = 37
+
+
+6b)
+Enter the number of items:
+4
+Enter the items profit:
+12 10 20 15
+Enter the items weights:
+2 1 3 2
+Enter the maximum capacity:
+5
+0/1 Knapsack using Greedy Method
+Item 2 (weight:1, profit:10) is added to knapsack
+Item 4 (weight:2, profit:15) is added to knapsack
+Item 1 (weight:2, profit:12) is added to knapsack
+Total profit of the items added to knapsack = 37
+
+
+
+Enter the number of items:
+4
+Enter the items profit:
+15 16 18 22
+Enter the items weights:
+1 3 6 7
+Enter the maximum capacity:
+6
+0/1 Knapsack using Greedy Method
+Item 1 (weight:1, profit:15) is added to knapsack
+Item 2 (weight:3, profit:16) is added to knapsack
+Total profit of the items added to knapsack = 31
+
+
+7)
+Enter the number of vertices in a graph :
+4
+Enter the weight matrix (99 for no edge):
+0 2 5 1
+2 0 1 2
+5 1 0 3
+1 2 3 0
+Enter the source vertex: 3
+Shortest paths are
+3 to 1: distance=3 path: 1<--2<--3
+3 to 2: distance=1 path: 2<--3
+3 to 4: distance=3 path: 4<--3
+
+8)
+Enter the number of vertices
+4
+Enter the undirected graph as adjacency matrix
+0 2 99 2
+2 0 3 1
+99 3 0 5
+2 1 5 0
+Edges of min-cose spanning tree are
+(2,4) (1,2) (2,3)
+Cost of min-cost spanning tree = 6
+
+9)
+Enter the number of vertices 4
+Enter the weighted matrix of undirected graph
+0 2 99 2
+2 0 5 3
+99 5 0 4
+2 3 4 0
+Edges of min-cose spanning tree are
+(1,2) (1,4) (4,3)
+Cost of min-cost spanning tree = 8
+
+10a)
+Enter the number of vertices
+4
+Enter the adjacency matrix (99 for no edge)
+0 99 3 99
+2 0 99 99
+99 7 0 1
+6 99 99 0
+All pairs shortest path matrix is
+0 10 3 4
+2 0 5 6
+7 7 0 1
+6 16 9 0
+
+10b)
+Enter the total cities
+4
+Enter the distance matrix (99 for no connectivity)
+0 1 3 6
+1 0 2 3
+3 2 0 1
+6 3 1 0
+Traversal Path using Dyn. Prgg:
+1 > 2 > 4 > 3 > 1
+Minimum cost : 8
+
+11)
+Enter size of the set
+5
+Enter set elements in increasing order
+1 2 5 6 8
+Enter maximum limit for sum
+9
+The subsets with sum of elements = 9 are
+{1,2,6}
+{1,8}
+
+12)
+Enter number of vertices
+5
+Enter adjacency matrix
+0 1 0 1 0
+1 0 1 1 1
+0 1 0 0 1
+1 1 0 0 1
+0 1 1 1 0
+Solution found
